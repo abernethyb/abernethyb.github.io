@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgba(222, 197, 153, 1);
+    list-style-type: none;
+    padding: 1rem 0rem;
+}
+
+.nav ul li:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.profile__image {
+    width: 400px;
+    height: 265px;
+}
+/* .image__container {
+    width: 40%;
+} */
+
+/* .content {
+    display: flex;
+} */
+.about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.bio {
+    margin: 0rem 2rem;
+}
